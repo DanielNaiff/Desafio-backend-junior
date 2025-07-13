@@ -2,7 +2,7 @@ spring:
   application:
     name: magalu
   datasource:
-    url: jdbc:postgresql://localhost:5432/magalu
+    url: jdbc:postgresql://localhost:5433/magalu
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver

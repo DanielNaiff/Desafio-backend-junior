@@ -22,6 +22,7 @@ public class StudentMapper {
             enrollment.setEnrollmentCode(m.enrollmentCode());
             enrollment.setBeginingDate(m.beginingDate());
             enrollment.setCourseName(m.courseName());
+            enrollment.setStudent(student);
             return enrollment;
         }).toList();
         student.setEnrollments(enrollments);
